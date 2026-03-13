@@ -1,0 +1,26 @@
+What is rendering in React and how does React render JSX to the screen?
+  Rendering in react  is the process of converting JSX into DOM elements and      
+displaying in browser using ReactDOM.
+
+How can you render a JavaScript variable inside JSX?
+in react we can access the jsx using double curly barces {}
+
+How do you render an object’s properties in a React component?
+ in react we use object inside the jsx using curly braces {} and dot. like {emp . name}
+
+How can you render an array of values in React?
+
+ array in React is rendered using the map() function, which loops through the array and returns JSX elements.
+
+ How do you render an array of objects using .map() in React?
+
+ array of objects can be rendered in React using the map() method, its loops through the array and returns JSX elements for each object.
+
+ Why is the key prop important when rendering lists in React?
+
+ The key prop is used to  identify unique elements in a list so React can efficiently update and re-render only the changed elements.
+
+ What is the difference between using && logical rendering and the ternary operator in React?
+ logical rendering is component render based on the condition true if condition false it doesnt work.
+
+ ternary opertor is Render one of two options depending on the condition.
